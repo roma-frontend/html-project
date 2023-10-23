@@ -463,8 +463,7 @@ body {
 
 .custom-select {
   position: relative;
-  max-width: 370px;
-  width: 100%;
+  width: 370px;
   cursor: pointer;
 }
 
@@ -567,8 +566,7 @@ body {
 
 .form-group {
   position: relative;
-  max-width: 370px;
-  width: 100%;
+  width: 370px;
   border-radius: 3px;
   height: 48px;
   display: flex;
@@ -596,8 +594,7 @@ body {
 }
 
 .line-box {
-  max-width: 770px;
-  width: 100%;
+  width: 770px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -666,8 +663,7 @@ body {
   position: relative;
   background: #fff;
   overflow: hidden;
-  max-width: 370px;
-  width: 100%;
+  width: 370px;
   height: 44px;
   display: flex;
   align-items: center;
@@ -725,7 +721,7 @@ body {
 }
 
 .form-btn {
-  max-width: 370px;
+  max-width: 370px !important;
   width: 100%;
   border: 1px solid #fff;
   background: #3e9cdc;
