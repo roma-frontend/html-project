@@ -858,7 +858,12 @@ body {
   line-height: 1;
 }
 
+.address__item-wrapper {
+  line-height: 0.5;
+}
+
 .address__link {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   font-size: 13px;
@@ -866,6 +871,7 @@ body {
   font-style: normal;
   text-transform: none;
   white-space: nowrap;
+  line-height: 1.4;
   transition: all ease-in-out 150ms;
 }
 
