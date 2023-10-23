@@ -1,0 +1,1 @@
+const containers = document.querySelectorAll(".circle"), smallCircleHTML = '<div class="small-circle"></div>'; containers.forEach(l => { for (let c = 0; c < 5; c++)l.innerHTML += '<div class="small-circle"></div>' });

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang=ru>
+
+<head>
+  <meta charset=UTF-8>
+  <meta name=viewport
+    content="width=device-width,initial-scale=1">
+  <meta name=description
+    content="Created by html and css">
+  <link rel=apple-touch-icon
+    sizes=180x180
+    href=./assets/favicon/apple-touch-icon.png>
+  <link rel=icon
+    type=image/png
+    sizes=32x32
+    href=./assets/favicon/favicon-32x32.png>
+  <link rel=icon
+    type=image/png
+    sizes=16x16
+    href=./assets/favicon/favicon-16x16.png>
+  <link rel=stylesheet
+    href=./style/normalize.css>
+  <link rel=stylesheet
+    href=./style/style.css>
+  <link rel=stylesheet
+    href=./libs/toastify.min.css>
+  <script src=./libs/toastify-js.js
+    defer></script>
+  <script src=./js/app.js
+    defer></script>
+  <script src=./js/circle.js
+    defer></script>
+  <script src=./js/select.js
+    defer></script>
+  <script src=./js/label.js
+    defer></script>
+  <script src=./js/percent.js
+    defer></script>
+  <script src=./js/form.js
+    defer></script>
+  <title>Test</title>
+</head>
+
+<body>
+  <nav class=navbar
+    id=navbar>
+    <div class=navbar-container>
+      <div class=navbar-logo>
+        <a href=#home
+          title=logo
+          class=navbar-logo__link>
+          <img src=./assets/images/logo.svg
+            alt="logo image"
+            width=247
+            height=35
+            class=navbar-logo__image>
+        </a>
+      </div>
+      <ul class=nav-list>
+        <li class=nav-list__item>
+          <a href='/html-project/'
+            class=nav-link>бизнес</a>
+        </li>
+        <li class=nav-list__item><a href=https://roma-frontend.github.io/html-project/services
+            class=nav-link>о нас</a></li>
+        <li class=nav-list__item><a href=https://roma-frontend.github.io/html-project/prices
+            class=nav-link>цены</a></li>
+        <li class=nav-list__item><a href=https://roma-frontend.github.io/html-project/orders
+            class=nav-link>оформить заказ</a></li>
+      </ul>
+      <div id=menu-icon-open
+        class="menu-icon menu-open">
+        <img src=./assets/images/menu.svg
+          alt="menu icon"
+          width=24
+          height=24
+          class=menu-close__icon>
+      </div>
+      <div id=menu-icon-close
+        class="menu-icon menu-close">
+        <img src=./assets/images/close.svg
+          alt="menu close"
+          width=24
+          height=24
+          class=menu-close__icon>
+      </div>
+    </div>
+  </nav>
+  <main class=main-container>
+    <section class=home
+      id=home>
+      <div class=home-container>
+        <div class=home-text>
+          <h1 class=home__title>
+            <span class=home-subtitle>Lorem ipsum</span> <span style=white-space:nowrap>dolor sit</span> <br>amet
+            consectetur
+            <span class=home-subtitle>adipiscing</span>
+          </h1>
+          <div class=text-list__box>
+            <h2 class=list-title>
+              At vero eos et accusamus et iusto odio dignissimos ducimus!
+            </h2>
+            <ul class=text-list>
+              <li class=text-list__item>Totam rem aperiam eaque ipsa</li>
+              <li class=text-list__item>Sit voluptatem accusantium doloremque laudantium</li>
+              <li class=text-list__item>Sed ut perspiciatis, unde omnis iste natus error</li>
+            </ul>
+          </div>
+          <div class=home-button>
+            <a href=#orderForm
+              class="button primary-btn"
+              aria-label="Кнопка заказать">заказать</a>
+            <a href=#order
+              class="button secondary-btn"
+              aria-label="Кнопка подробнее">подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=order
+      id=order>
+      <div class=order-container>
+        <div class=order-text>
+          <h2 class=order-text__title>Оформление <span class=order-text__name>Заказа</span></h2>
+          <p class=order-text__subtitle>
+            Перед заполнением формы ознакомьтесь с нашей схемой работы!
+          </p>
+        </div>
+        <div class=order-preview>
+          <div class=preview-box>
+            <figure class=order-preview__item>
+              <div class=preview-item__image>
+                <img src=./assets/images/search.svg
+                  alt="search icon"
+                  width=55
+                  height=55>
+              </div>
+              <figcaption class=preview-item__title>Lorem ipsum dolor sit amet</figcaption>
+            </figure>
+            <div class="circle circle1"></div>
+          </div>
+          <div class=preview-box>
+            <figure class=order-preview__item>
+              <div class=preview-item__image>
+                <img src=./assets/images/percent.svg
+                  alt="percent icon"
+                  width=55
+                  height=55>
+              </div>
+              <figcaption class=preview-item__title>Сonsecteturadipiscing elit</figcaption>
+            </figure>
+            <div class="circle circle2"></div>
+          </div>
+          <div class=preview-box>
+            <figure class=order-preview__item>
+              <div class=preview-item__image>
+                <img src=./assets/images/message.svg
+                  alt="message icon"
+                  width=55
+                  height=55>
+              </div>
+              <figcaption class=preview-item__title>Sed do eiusmod tempor</figcaption>
+            </figure>
+            <div class="circle circle3"></div>
+          </div>
+          <div class=preview-box>
+            <figure class=order-preview__item>
+              <div class=preview-item__image>
+                <img src=./assets/images/file.svg
+                  alt="file icon"
+                  width=55
+                  height=55>
+              </div>
+              <figcaption class=preview-item__title>Esse cillum dolore eu fugiat</figcaption>
+            </figure>
+            <div class="circle circle4"></div>
+          </div>
+          <div class=preview-box>
+            <figure class=order-preview__item>
+              <div class=preview-item__image>
+                <img src=./assets/images/money.svg
+                  alt="money icon"
+                  width=55
+                  height=55>
+              </div>
+              <figcaption class=preview-item__title>
+                Excepteur sint occaecat cupidatat non proident
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class=order-form
+          id=orderForm>
+          <form id=form
+            class=form>
+            <div class=form-control>
+              <div class=custom-select>
+                <div class=select-header>
+                  <h3 class=select-header__title>Выберите тип системы</h3>
+                  <span class=arrow-down>
+                    <img src=./assets/images/arrow-down.svg
+                      alt="arrow-down icon"
+                      width=20
+                      height=20
+                      class=arrow-down__icon>
+                  </span>
+                </div>
+                <div class=select-box>
+                  <ul class=select-options>
+                    <li data-value=lorem
+                      class=select-options__item>Lorem</li>
+                    <li data-value=ipsum
+                      class=select-options__item>Ipsum</li>
+                    <li data-value=dolor
+                      class=select-options__item>Dolor</li>
+                    <li data-value=sit
+                      class=select-options__item>Sit</li>
+                    <li data-value=amet
+                      class=select-options__item>Amet</li>
+                    <li data-value=consectetur
+                      class=select-options__item>Adipisicing </li>
+                    <li data-value=consectetur
+                      class=select-options__item>Odit</li>
+                    <li data-value=consectetur
+                      class=select-options__item>Excepturi</li>
+                    <li data-value=consectetur
+                      class=select-options__item>Placeat</li>
+                    <li data-value=consectetur
+                      class=select-options__item>Consectetur</li>
+                  </ul>
+                </div>
+              </div>
+              <div class=form-group>
+                <label for=email
+                  class=form-group__label>Ваш e-mail
+                </label>
+                <input type=email
+                  class=form-group__input
+                  name=email
+                  id=email
+                  autocomplete=off
+                  required>
+              </div>
+              <div class=form-group>
+                <label for=name
+                  class=form-group__label>Ваше имя
+                </label>
+                <input class=form-group__input
+                  name=name
+                  id=name
+                  autocomplete=given-name
+                  required>
+              </div>
+            </div>
+            <div class=file-control>
+              <div class=line-box>
+                <div class=line-title>
+                  <p class=line-title__desc>Sed ut perspiciatis, unde omnis iste natus</p>
+                  <span class=line-title__percent>75%</span>
+                </div>
+                <div class=line-image__box
+                  id=line-image>
+                  <div class=line></div>
+                  <img src=./assets/images/circle-blue.svg
+                    alt="circle icon"
+                    width=37
+                    height=37
+                    class=line-image__circle
+                    id=circle>
+                </div>
+              </div>
+              <div class=form-group__container>
+                <label for=file
+                  class="form-group__label file-label"
+                  id=fileLabel>
+                  <img src=./assets/images/file-input.svg
+                    alt="file icon"
+                    width=17
+                    height=20
+                    class=label-file-icon>
+                  <span class=form-group__label-text>Прикрепить файл</span>
+                </label>
+                <input type=file
+                  class=form-group__input-file
+                  id=file>
+              </div>
+            </div>
+            <div class=form-button>
+              <button type=submit
+                aria-label="Кнопка отправить"
+                class="button form-btn">
+                Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class=footer>
+      <div class=footer-container>
+        <div class=copyright-box>
+          <p class=copyright-box__inner>
+            © 2018 «LoremIpsum.net» Все права защищены.
+          </p>
+        </div>
+        <div class=wallet-wrapper>
+          <div class=wallet-box>
+            <figure class=wallet-item>
+              <img src=./assets/images/qiwi.svg
+                alt="qiwi icon"
+                width=20
+                height=20
+                class=wallet-item__image>
+              <figcaption class=wallet-item__name>Qiwi wallet</figcaption>
+            </figure>
+          </div>
+          <div class=wallet-box>
+            <figure class=wallet-item>
+              <img src=./assets/images/yandex.svg
+                alt="yandex icon"
+                width=20
+                height=20
+                class=wallet-item__image>
+              <figcaption class=wallet-item__name>Yandex Money</figcaption>
+            </figure>
+          </div>
+          <div class=wallet-box>
+            <figure class=wallet-item>
+              <img src=./assets/images/webmoney.svg
+                alt="webmoney icon"
+                width=20
+                height=20
+                class=wallet-item__image>
+              <figcaption class=wallet-item__name>Web Money</figcaption>
+            </figure>
+          </div>
+        </div>
+        <address class=address-box>
+          <figure class=address-item>
+            <img src=./assets/images/message-blue.svg
+              alt="message icon"
+              width=20
+              height=20
+              class=address-item__image>
+            <figcaption class=address__item-wrapper>
+              <a href=mailto:info@ipsum228.com
+                target=_blank
+                title="Электронная почта"
+                class=address__link>info@ipsum228.com</a>
+            </figcaption>
+          </figure>
+          <figure class=address-item>
+            <img src=./assets/images/vk.svg
+              alt="vk icon"
+              width=20
+              height=20
+              class=address-item__image>
+            <figcaption class=address__item-wrapper>
+              <a href=https://vk.com
+                target=_blank
+                title=Вконтакте
+                class=address__link>Мы вконтакте</a>
+            </figcaption>
+          </figure>
+        </address>
+      </div>
+    </footer>
+    <section id=loader
+      class=loader>
+      <h2 class=loader-title>Загрузка...</h2>
+      <span class=loader-circle></span>
+    </section>
+  </main>
+</body>
+
+</html>
