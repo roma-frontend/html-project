@@ -492,7 +492,6 @@ body {
 
 .select-header {
   background: rgba(255, 255, 255, 0.85);
-  height: 26px;
   border-radius: 3px;
   border: 1px solid #fff;
   padding: 10px;
@@ -502,7 +501,7 @@ body {
   color: #272733;
   font-size: 1.125rem;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.45;
 }
 
 .select-box {
