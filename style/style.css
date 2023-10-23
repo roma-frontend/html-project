@@ -38,7 +38,6 @@
 
 ::-webkit-scrollbar {
   width: 10px;
-  height: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -482,10 +481,16 @@ body {
 }
 
 .select-box {
+  position: absolute;
+  background: #272733;
+  left: 0;
+  width: 100%;
   display: grid;
   grid-template-rows: 0;
   max-height: 225px;
-  transition: grid-template-rows ease 0.5s;
+  transition: grid-template-rows ease 0.4s;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  z-index: 1;
 }
 
 .arrow-down {
@@ -502,12 +507,9 @@ body {
 }
 
 .select-options {
-  background: #272733;
-  border: 1px solid #fff;
   list-style: none;
   padding-left: 0;
-  margin-top: 0;
-  margin-bottom: -1px;
+  margin: 0;
   overflow-y: auto;
   opacity: 0;
   transition: opacity 350ms ease;

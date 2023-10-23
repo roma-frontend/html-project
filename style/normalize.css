@@ -157,9 +157,7 @@ button,
 html input[type="button"],
 input[type="reset"] {
   -webkit-appearance: button;
-  /* 2 */
   cursor: pointer;
-  /* 3 */
 }
 
 
