@@ -512,7 +512,7 @@ body {
   display: grid;
   grid-template-rows: 0;
   max-height: 225px;
-  transition: grid-template-rows ease 0.4s;
+  transition: grid-template-rows ease 150ms;
   box-shadow: 0 0 5px rgb(255, 255, 255, 0.2);
   z-index: 1;
 }
@@ -536,7 +536,7 @@ body {
   margin: 0;
   overflow-y: auto;
   opacity: 0;
-  transition: opacity 350ms ease;
+  transition: opacity 200ms ease;
   scrollbar-width: thin;
   scrollbar-color: #888 #272733;
 }
