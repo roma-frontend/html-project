@@ -463,14 +463,14 @@ body {
 .custom-select {
   position: relative;
   width: 370px;
-  height: 48px;
   cursor: pointer;
 }
 
 .select-header {
+  background: rgba(255, 255, 255, 0.85);
+  height: 26px;
   border-radius: 3px;
   border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.85);
   padding: 10px;
 }
 
@@ -570,8 +570,8 @@ body {
 .form-group {
   position: relative;
   width: 370px;
-  border-radius: 3px;
   height: 48px;
+  border-radius: 3px;
   display: flex;
 }
 
