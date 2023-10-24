@@ -892,6 +892,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 1rem;
   z-index: 100000;
   background: rgba(16, 16, 29, 0.775);
   width: 100%;
@@ -901,6 +902,12 @@ body {
 
 .loader-title {
   display: none;
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .loader-circle {
@@ -1032,6 +1039,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .loader-title {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 576px) {
   .button {
@@ -1101,6 +1111,9 @@ body {
   .wallet-wrapper {
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .loader-title {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 1155px) {
