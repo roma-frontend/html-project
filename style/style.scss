@@ -349,7 +349,7 @@ body {
   text-align: center;
   row-gap: 1.875rem;
   margin-inline: auto;
-  padding-bottom: 2.75rem;
+  padding-bottom: 2.125rem;
 }
 
 .order-text__title {
@@ -389,7 +389,7 @@ body {
   flex-direction: column;
   align-items: center;
   row-gap: 1.25rem;
-  padding-inline: 10px;
+  padding: 10px;
   margin: 0;
 }
 
@@ -407,10 +407,7 @@ body {
 .preview-item__image::before {
   content: "";
   position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
+  inset: 0;
   border: 5px solid #286690;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(40, 102, 144, 0.6);
@@ -501,7 +498,7 @@ body {
   color: #272733;
   font-size: 1.125rem;
   font-weight: 400;
-  line-height: 1.45;
+  line-height: 1.445;
 }
 
 .select-box {
@@ -593,7 +590,7 @@ body {
 .form-group {
   position: relative;
   width: 370px;
-  height: 48.09px;
+  height: 48px;
   border-radius: 3px;
   display: flex;
 }
@@ -742,7 +739,7 @@ body {
 
 .form-button {
   width: 100%;
-  margin-top: 3.1rem;
+  padding-top: 1.4rem;
   text-align: center;
 }
 
