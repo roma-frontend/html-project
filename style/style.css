@@ -359,6 +359,7 @@ body {
 
 .preview-box {
   position: relative;
+  padding: 10px;
 }
 
 .order-preview__item {
@@ -367,7 +368,6 @@ body {
   flex-direction: column;
   align-items: center;
   row-gap: 1.25rem;
-  padding: 10px;
   margin: 0;
 }
 
@@ -419,7 +419,7 @@ body {
 
 .circle {
   position: absolute;
-  top: 30%;
+  top: 32%;
   display: flex;
   gap: 17px;
 }
@@ -889,6 +889,7 @@ body {
   top: 0;
   left: 0;
   display: none;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 100000;
